@@ -79,7 +79,7 @@ body {
     
 }
 
-.card-image {
+.card-image, .card-info  {
     display: flex;
     justify-content: center;
     align-items: center;  
