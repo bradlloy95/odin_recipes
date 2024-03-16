@@ -59,6 +59,12 @@ body {
 
 
 
+.body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .card {
     display: flex;    
     background-color: rgb(150, 150, 150);
