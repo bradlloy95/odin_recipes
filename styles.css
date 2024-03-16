@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     
-    height: 75px;
+    height: 90px;
     margin-bottom: 10px;
 
 }
@@ -45,7 +45,8 @@ body {
     font-family: fantasy;
     font-weight: 500;
     font-size: 35px;
-    margin-left: auto;    
+    margin-left: auto; 
+    padding: 5px;   
     
 }
 .header a {
@@ -62,12 +63,13 @@ body {
     display: flex;    
     background-color: rgb(150, 150, 150);
     margin-bottom: 10px;
-   
+    flex-wrap: wrap;
     
 }
 
 .card-image , .card-info {
     background-color: rgba(235, 235, 235, 0.755);
+    
 }
 
 .card-image {
@@ -76,6 +78,7 @@ body {
     width: 300px;
     height: 300px;
     margin-right: 10px;
+    
 }
 .card-image img{
     
@@ -87,7 +90,7 @@ body {
 }
 
 .card-info {
-    
-    flex: 1;
+    flex: auto;
+    min-width: 300px;
 
 }
