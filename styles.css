@@ -69,15 +69,18 @@ body {
 
 .card-image , .card-info {
     background-color: rgba(235, 235, 235, 0.755);
+    margin: 5px;
     
 }
 
 .card-image {
     display: flex;
+    justify-content: center;
     align-items: center;  
-    width: 300px;
+    width: 500px;
     height: 300px;
     margin-right: 10px;
+    
     
 }
 .card-image img{
@@ -90,7 +93,8 @@ body {
 }
 
 .card-info {
-    flex: auto;
-    min-width: 300px;
+   height: 300px;
+   width: 500px;
+    
 
 }
